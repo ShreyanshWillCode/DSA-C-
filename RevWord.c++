@@ -34,6 +34,7 @@ string reverseWords(string s)
 int main()
 {
     string s = "Hello world";
+    cout<<"Reversed: "<<endl;
     reverseWords(s);
     return 0;
 }
