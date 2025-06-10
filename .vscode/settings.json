@@ -45,6 +45,8 @@
         "xmemory": "cpp",
         "xstddef": "cpp",
         "xtr1common": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "xhash": "cpp",
+        "unordered_set": "cpp"
     }
 }
