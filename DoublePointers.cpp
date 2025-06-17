@@ -10,9 +10,11 @@ int main()
     // cout << **ptr << endl;
     int first = 8;
     int second = 18;
-    int *ptr = &first;
-    // *ptr = 9;
-    cout << (*ptr)++ << " " <<endl;
-    cout << first << " " <<endl;
+    int *ptr = &second;
+    (*ptr)++;
+    *ptr=first;
+    
+    // cout << (*ptr)++ << " " <<endl;
+    cout << first << " " << second<<*ptr<<endl;
      return 0;
 }
