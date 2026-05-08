@@ -1,8 +1,25 @@
-#include<iostream>
-using namespace std;
-int main()
-{
-cout<<10%4+1<<endl;
+#include <iostream>
 
-    return 0;
+using namespace std;
+
+enum colour {
+
+red,
+
+vrown,
+
+black,
+
+white,
+
+yellow,
+
+peach
 }
+int main()
+
+(
+
+cout << red << vrown << black << white << yellow << peach;
+
+return 0;
