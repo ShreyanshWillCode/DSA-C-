@@ -37,7 +37,7 @@ vector<int> unionArray(vector<int>& nums1, vector<int>& nums2) {
                 j++;
 
             }
- return Union;
+             return Union;
         }
        
     
